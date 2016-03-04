@@ -1,0 +1,152 @@
+/*
+ colors used:
+     dark blue: 00285c
+     mid blue: 016a99
+     dark orange: 7b441c
+     teal: 17605f
+*/
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00285c;
+}
+
+a {
+    color: #016a99;
+}
+
+a:visited {
+    color: #00285c;
+}
+
+a:hover {
+    color: #7b441c;
+}
+ul {
+    margin:6px 20px 6px 40px;
+}
+
+h1 {
+    padding: 2px 5px;
+    margin-bottom: 12px 0 24px;
+    color: #fff;
+    background-color: #016a99;
+}
+
+h3 {
+    color:teal;
+    border-bottom: dashed 2px teal;
+    margin-bottom: 12px;
+}
+
+h4 {
+    background-color: #00285c;
+    color:#fff;
+    padding: 4px 20px;
+    text-align: center;
+}
+
+p {
+    margin:12px 0 24px;
+}
+
+#container {
+    width:960px;
+    margin:0 auto;
+    background-color:#fff;
+}
+
+/*  main menu starts here */
+#mainMenu {
+    background-color: #016a99;
+    list-style-type: none;
+    text-align: center;
+}
+#mainMenu li {
+    display: inline-block;
+    margin:0 10px 10px;
+}
+#mainMenu a:link {
+    color:#fff;
+    padding:10px 20px;
+    display: block;
+    border:solid 2px #fff;
+    text-decoration: none;
+}
+#mainMenu a:visited {
+    color:#ccc;
+}
+#mainMenu a:hover {
+    background-color: #fff;
+    color:#016a99;
+    border-color:#00285c;
+}
+#mainMenu a:active {
+    background-color:#00285c;
+    color:#fff;
+}
+/* mainMenu ends */
+
+#mainSection {
+    margin:10px;
+}
+#mainSection img {
+    padding:20px;
+    border:solid 2px #999;
+    margin-bottom:10px;
+}
+.onLeft {
+    float:left;
+    margin: right:12px;
+}
+
+.onRight {
+    float:right;
+    margin:left:12px;
+}
+.caption {
+    font-style: italic;
+    color:#999;
+    text-align: center;
+    display:block;
+}
+.callOut {
+    border: solid 2px #999;
+    background-color: #ccc;
+    padding:20px;
+}
+.callOut li {
+    margin-bottom: 4px;     
+}
+.clearIt {
+    clear:both;
+}
+.article3 {
+    width:300px;
+    margin-right:20px;
+    margin-bottom:20px;
+    float:left;
+}
+.article3:last-child {
+    margin-right:0;
+}
+.article3 h2 {
+    text-align: center;
+    margin-bottom:12px;
+}
+#footer {
+    background-color:#016a99;
+    clear: both;
+    color:#fff;
+    text-align: center;
+    padding:10px;
+}
+
+
+
+
+
+
